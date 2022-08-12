@@ -1,0 +1,3 @@
+font titres : https://fonts.google.com/specimen/Pacifico#standard-styles
+
+font écriture: https://fonts.google.com/specimen/Updock

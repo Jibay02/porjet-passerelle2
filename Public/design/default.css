@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+
+body{    
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    font-family:'Pacifico', cursive;
+    min-width: 480px;
+    color: #F2F2F2;
+} 
+
+/* HEADER */
+header{
+    background-color: #383838;
+    color: #F2F2F2;
+    
+}
+
+/* FOOTER */
+footer{
+    background-color:#CDBE78 ;
+    font-size: 1.5em;
+    color: #F2F2F2;
+}
+
+/* TITRES */
+h1{
+    font-size: 4em;
+    font-style: italic;
+}
+h2{
+    font-style: italic;
+}
+section.Totale{
+    
+    flex-grow: 1;
+    background:center/cover;
+    background-image: url(/Public/Asset/portrait-g7f98d9027_1920.jpg);
+    margin-top: 0; 
+    width: 100%;
+    /* height: 100%; */
+}
+/* FORMULAIRE */
+div.Formulaire container{
+    width: 450px;
+    /* height: 650px; */
+} 
+form.text-white{
+    padding-top: 80px;
+    width: 450px;
+    /* opacity: 60%;   */
+}
+form.Testi.text-white{
+    width: 450px;
+    padding-top: 0;
+    /* opacity: 60%;   */
+}
+form p{
+    text-decoration: underline;
+    color: #F2F2F2;
+    font-size: 1.2em;
+}
+.connect_ok{
+    font-size: 1.2em;
+}
+a:hover{
+    font-weight: bold;
+}
+
+section.container.logout{
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+hr:not([size]) {
+    height: 2px;
+}
+hr{
+    width: 150px;
+    opacity: unset;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+li{
+   list-style-type: none; 
+}
